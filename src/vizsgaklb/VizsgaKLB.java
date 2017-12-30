@@ -11,24 +11,24 @@ public class VizsgaKLB {
         System.out.println();
 
         VizsgaMegoldas2 v2 = new VizsgaMegoldas2(0);
-        v2.holAllok();
-        v2.jobbra();
-        v2.holAllok();
-        v2.jobbra();
-        v2.holAllok();
-        v2.jobbra();
-        v2.holAllok();
-        v2.jobbra();
-        v2.holAllok();
-        v2.jobbra();
-        v2.holAllok();
-        v2.balra();
-        v2.holAllok();
-        v2.balra();
-        v2.holAllok();
-        v2.balra();
-        v2.holAllok();
-        v2.jobbra();
-        v2.holAllok();
+        v2.merreNezek();
+        v2.jobbraFordul();
+        v2.merreNezek();
+        v2.jobbraFordul();
+        v2.merreNezek();
+        v2.jobbraFordul();
+        v2.merreNezek();
+        v2.jobbraFordul();
+        v2.merreNezek();
+        v2.jobbraFordul();
+        v2.merreNezek();
+        v2.balraFordul();
+        v2.merreNezek();
+        v2.balraFordul();
+        v2.merreNezek();
+        v2.balraFordul();
+        v2.merreNezek();
+        v2.jobbraFordul();
+        v2.merreNezek();
     }
 }

@@ -15,7 +15,7 @@ public class VizsgaMegoldas2 {
         this.irany = irany;
     }
 
-    public void balra() {
+    public void balraFordul() {
         if(getIrany()!=0) {
             setIrany(getIrany() - 1);
         }
@@ -24,7 +24,7 @@ public class VizsgaMegoldas2 {
         }
     }
 
-    public void jobbra() {
+    public void jobbraFordul() {
         if(getIrany()!=3) {
             setIrany(getIrany() + 1);
         }
@@ -33,7 +33,7 @@ public class VizsgaMegoldas2 {
         }
     }
 
-    public void holAllok() {
+    public void merreNezek() {
         System.out.println(getIrany());
     }
 }

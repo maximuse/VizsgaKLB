@@ -36,6 +36,6 @@ public class VizsgaMegoldas1 {
     }
 
     public void haromszogKerulete() {
-        System.out.println((this.a + this.b + this.c));
+        System.out.println(getA() + " + " + getB() + " + " + getC() + " = " + (this.a + this.b + this.c));
     }
 }
