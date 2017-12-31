@@ -39,6 +39,23 @@ public class VizsgaMegoldas2 {
     }
 
     private void merreNezek() {
-        System.out.println(getIrany());
+        String egtaj = "";
+
+        switch (getIrany()) {
+            case 0:
+                egtaj = "eszak";
+                break;
+            case 1:
+                egtaj = "kelet";
+                break;
+            case 2:
+                egtaj = "del";
+                break;
+            case 3:
+                egtaj = "nyugat";
+                break;
+        }
+
+        System.out.println(getIrany() + " (" + egtaj + ")");
     }
 }
