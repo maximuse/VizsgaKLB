@@ -5,6 +5,7 @@ public class VizsgaMegoldas2 {
 
     public VizsgaMegoldas2(int irany) {
         this.irany = irany;
+        merreNezek();
     }
 
     public int getIrany() {
@@ -22,6 +23,8 @@ public class VizsgaMegoldas2 {
         else {
             setIrany(3);
         }
+
+        merreNezek();
     }
 
     public void jobbraFordul() {
@@ -31,9 +34,11 @@ public class VizsgaMegoldas2 {
         else {
             setIrany(0);
         }
+
+        merreNezek();
     }
 
-    public void merreNezek() {
+    private void merreNezek() {
         System.out.println(getIrany());
     }
 }
